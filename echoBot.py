@@ -30,8 +30,6 @@ TOKEN = '5139995455:AAE7cynO6IyucHsx8PXGMfcsvLALdDRSDx0'
 
 
 def start(bot, update):
-    """Send a message when the command /start is issued."""
-    chat_id = update.message.chat_id
     bot.send_message(chat_id=chat_id, text="hi there, welcome to my channel")
 
 
